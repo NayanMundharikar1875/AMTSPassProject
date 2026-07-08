@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Administration - AMTS</title>
+    <link rel="shortcut icon" href="amtslogo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="generaladmin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="top-header">
+        <div class="container">
+            <div class="top-header-content">
+                <div class="date-time">
+                    <span id="current-date"></span>
+                    <span id="current-time"></span>
+                </div>
+                <div class="top-links">
+                    <a href="contactus.html"><i class="fas fa-question-circle"></i> Help</a>
+                    <a href="contactus.html"><i class="fas fa-phone"></i> Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="amtslogo.jpeg" alt="AMTS Logo">
+                <div class="logo-text">
+                    <h1>AMTS</h1>
+                    <p>Ahmedabad Municipal Transport Service</p>
+                </div>
+            </div>
+            <div class="user-actions">
+                <a href="login.php" class="user-btn"><i class="fas fa-user"></i> Login</a>
+                <a href="register.php" class="user-btn"><i class="fas fa-user-plus"></i> Register</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul class="main-menu">
+                <li><a href="index.php"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="" class="active"><i class="fas fa-bus"></i> Information</a>
+                    <ul class="sub-menu">
+                        <li><a href="trafficdepartment.html"><i class="fas fa-list"></i> Traffic Management</a></li>
+                        <li><a href="generaladmin.html" class="active"><i class="fas fa-redo"></i> General Administration</a></li>
+                        <li><a href="workshopdepartment.html"><i class="fas fa-receipt"></i> Workshop Department</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="fas fa-id-card"></i> Pass Management</a>
+                    <ul class="sub-menu">
+                        <li><a href="passcategories.html"><i class="fas fa-list"></i> View Pass Categories</a></li>
+                        <li><a href="renew.php"><i class="fas fa-redo"></i> Renew Pass</a></li>
+                        <li><a href="ereceipt.php"><i class="fas fa-receipt"></i> Download E-Receipt</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="fas fa-headset"></i> Support</a>
+                    <ul class="sub-menu">
+                        <li><a href="feedback.php"><i class="fas fa-comment"></i> Give Feedback</a></li>
+                    </ul>
+                </li>
+                <li><a href="contactus.html"><i class="fas fa-user-cog"></i> Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero admin-hero">
+        <div class="container">
+            <h2>General Administration</h2>
+            <p>Managing the organizational structure and administrative functions of AMTS</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="admin-content">
+        <div class="container">
+            <div class="section-title">
+                <h2>Administrative Officers</h2>
+                <p>Key personnel responsible for general administration</p>
+            </div>
+
+            <div class="officers-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sr.No.</th>
+                            <th>Name</th>
+                            <th>Designation</th>
+                            <th>Office</th>
+                            <th>Ext.</th>
+                            <th>Mobile No.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>SHRI.AMRUTESH KALIDAS AURANGABADKAR, IAS</td>
+                            <td>Dy.M.C.|T.M</td>
+                            <td>25391881</td>
+                            <td>301</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>SHRI. R.L.PANDAY</td>
+                            <td>Dy.T.M.(GEN.)</td>
+                            <td>25391881</td>
+                            <td>351</td>
+                            <td>9328277106</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>SHRI. SANJAY.J.PATEL</td>
+                            <td>Dy.T.M.(TECH.)</td>
+                            <td>25391881</td>
+                            <td>303</td>
+                            <td>9328277107</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>SHRI. BHARATBHAI.J.PATEL</td>
+                            <td>INCHARGE DIRECTOR OF TRAFFIC</td>
+                            <td>25391881</td>
+                            <td>321</td>
+                            <td>7069029943</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>SHRI. SANJEEV SETH</td>
+                            <td>ASST.MANAGER</td>
+                            <td>25391881</td>
+                            <td>308</td>
+                            <td>9979972832</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>SHRI. JANAK.B.RAVAL</td>
+                            <td>ASST.MANAGER</td>
+                            <td>25507739</td>
+                            <td>-</td>
+                            <td>9328277109</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>SHRI. J.K.SHAH</td>
+                            <td>LABOR WELFARE OFFICER</td>
+                            <td>25391881</td>
+                            <td>376</td>
+                            <td>9327426291</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>SHRI. MILIN.V.ZAVERI</td>
+                            <td>Dy.WORKS MANAGER</td>
+                            <td>25391881</td>
+                            <td>335</td>
+                            <td>9328277104</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>SHRI. RAKESH N. PATEL</td>
+                            <td>ASST.ENGINEER</td>
+                            <td>25391881</td>
+                            <td>309</td>
+                            <td>9327733598</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>SHRI. VINOD PARMAR</td>
+                            <td>JR.ENGINEER</td>
+                            <td>25391881</td>
+                            <td>-</td>
+                            <td>7069033251</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="content-section">
+                <h3><i class="fas fa-building"></i> Central Office Duties</h3>
+                <ul>
+                    <li>To appoint new employees in transport service</li>
+                    <li>To promote the employees at due interval</li>
+                    <li>Inter-departmental transfer of employees</li>
+                    <li>To prepare files received from various departments for the ratification of competent authorities, and to take policy decisions</li>
+                    <li>To work on establishment for opening new posts</li>
+                    <li>To follow roster policy at the time of appointments and promotions</li>
+                    <li>To issue circulars regarding polices & necessary procedures of to various departments</li>
+                    <li>To prepare necessary correspondence and proposals for state government</li>
+                    <li>Procedure to issue No objection certificate to Passport office for the employees' foreign visit, and approval of the employees visit from competent authorities</li>
+                    <li>Distribution of the mail addressed to Deputy Transport Manager</li>
+                    <li>To preserve the details of the Secret reports regarding evaluation of Annual Performance of transport service</li>
+                    <li>To maintain Property Return details of AMTS employees/ officers drawing Rs. 6500 or more grade</li>
+                    <li>To Prepare Post of cadre – wise provision, seniority list and final seniority list of the employees working on different posts from class-2 to class-4</li>
+                    <li>Details of the bills paid to officers and transport committee members</li>
+                    <li>Working of service and maintenance contract of Zerox and fax machines</li>
+                    <li>To forward the proposals, received from different Sections for the approval of transport committee to the office of municipal secretary</li>
+                    <li>To receive approved proposals from office of the municipal Secretary, and to forward them to respective Sections</li>
+                    <li>To forward proposals for the approval municipal boards, to the co-ordination officer in municipal corporation</li>
+                    <li>To present the information asked by members of transport committee and municipal councillors</li>
+                    <li>To maintain the record of AMTS plots of land</li>
+                    <li>To make correspondence about the land acquisition procedure under the assistance of Estate Advisor</li>
+                    <li>Any other duty assigned by the Transport Manager</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3><i class="fas fa-calculator"></i> Duties of Chief-Account Section</h3>
+                <h4>(A) Duties of Treasury Section:</h4>
+                <ul>
+                    <li>Maintain the accounts of Receipts & Payments</li>
+                    <li>Make Payments to employees</li>
+                    <li>Maintain cash and Bank details</li>
+                    <li>To deposit cash into the bank</li>
+                    <li>To prepare cheques of payments</li>
+                </ul>
+
+                <h4>(B) Duties of Head-Cashier Section:</h4>
+                <ul>
+                    <li>To collect the sales (tickets) amount received from the passenger by the conductors and deposited at various cash-cabins, and to bring the cash to Jamalpur office</li>
+                    <li>To count cash and make bundles</li>
+                    <li>To prepare cash-challans and deposit at the treasure</li>
+                </ul>
+
+                <h4>(C) Duties of Account-Payment section:</h4>
+                <ul>
+                    <li>To prepare various payments for the bill received from various sections</li>
+                    <li>To prepare salary-bill of the General Administration Department</li>
+                    <li>To maintain the details of deductions from employees salary-bills for income-tax, professional tax, L.I.C etc. and to deposit such deductions into Govt. treasury or in L.I.C office</li>
+                    <li>To file the returns for tax deductions</li>
+                    <li>Inward / outward procedure of Accounts departments</li>
+                </ul>
+
+                <h4>(D) Duties of Provident Fund Section:</h4>
+                <ul>
+                    <li>To arrange to prepare budget and revised budget of the organization and also to draw Balance-sheet</li>
+                    <li>Procedure for group insurance</li>
+                    <li>Payment of welfare loan to the employees</li>
+                    <li>To keep accounts of provident fund amount deducted from their pay</li>
+                    <li>Disbursement of provident fund to retired employees</li>
+                    <li>To keep Accounts of payment of loan against provident fund and recovery of such loans</li>
+                    <li>Fixation of pension for retiring employees</li>
+                    <li>To keep accounts for provident fund</li>
+                    <li>To get the books of accounts audited</li>
+                </ul>
+
+                <h4>(E) Duties of ticket & cash section</h4>
+                <ul>
+                    <li>To get the passengers and luggage tickets printed</li>
+                    <li>To make necessary, supply to various ticket-offices</li>
+                    <li>To keep accounts and stock of the tickets</li>
+                    <li>To keep accounts of tickets issued to conductors and revenue received from them</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3><i class="fas fa-money-bill-alt"></i> Duties of Cash-Cabins</h3>
+                <ul>
+                    <li>To receive revenue amount of the ticket sold by the conductors</li>
+                    <li>To issue passenger and luggage tickets to conductors and keep the related accounts</li>
+                    <li>To check the revenue voucher prepared by the conductors and credit the amount</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3><i class="fas fa-file-invoice-dollar"></i> Duties of Accounts Pay-Roll</h3>
+                <ul>
+                    <li>To prepare computerized bills of salary for all the employees of AMTS</li>
+                    <li>To prepare registers for pension / provident fund and welfare fund loans for the employees</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3><i class="fas fa-briefcase"></i> Duties of Labour Office Section</h3>
+                <ul>
+                    <li>To produce proofs of labour court cases, industrial court cases, M.A.C.T cases, high court cases, claim cases, gratuity cases during their adjournments, and to forward the verdicts to the respective sections after getting administrative approvals</li>
+                    <li>To receive administrative decisions on the matters of legal weirs, and get approval for sending S.S.C passed candidates for training</li>
+                    <li>To organise cultural programmes and sports events after the approval from administrative office</li>
+                    <li>To prepare advocates bills and send them to accounts section for payment</li>
+                    <li>There is a possibility of confiscation on the events of non-payment in cases of M.A.C.T., so labour welfare office has to convince the advocates, party or bailiff to get adjournment and inform the matter to C.A</li>
+                    <li>Other administrative matters related to labour welfare are handled by this office</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h3><i class="fas fa-search-dollar"></i> Duties of Chief Internal Audit Office</h3>
+                <ul>
+                    <li>To pre-audit of the salary payments of AMTS staff every month beforehand</li>
+                    <li>To give opinions on granting the employee leaves</li>
+                    <li>To give suggestions on increment payments of the staff</li>
+                    <li>To check provident fund, gratuity, pension and service recovered of the retiring employees</li>
+                    <li>Purchase orders for various items prepared by the stores section is audited first as per the policy of the organization</li>
+                    <li>Checking of interest of the compensation amount in the M.A.C.T court cases</li>
+                    <li>Audit of the calculation of amount to be paid to the employees as per the court verdict</li>
+                    <li>Checking of Kilometres mentioned for the jeeps hired by the organization</li>
+                    <li>Pre Audit of purchases made through tenders</li>
+                    <li>Audit of additional bills of employees dearness allowance</li>
+                    <li>When Pay-Commissions' awards are received, fixation of employees' grade is affected</li>
+                    <li>Bills for employees' welfare loans are checked by Internal Audit office</li>
+                    <li>Auditing of pension bills and pension fixation of retired employees</li>
+                    <li>Audit of daily expenses at treasury and checking of credit vouchers</li>
+                    <li>Checking of incentives payable to drivers-conductors of traffic section</li>
+                    <li>Checking of kilometre mileage of private C.N.G bus as per the policy of the organization</li>
+                    <li>Checking of the employee loans for residences or vehicles</li>
+                    <li>To co-ordinate with the A.M.C chief audit section, and to solve their queries</li>
+                    <li>Any other administrative procedure assigned to this office</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About AMTS</h3>
+                    <p>Ahmedabad Municipal Transport Service (AMTS) is the public transport provider for Ahmedabad city, serving millions of passengers daily.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="passcategories.html">Pass Categories</a></li>
+                        <li><a href="renew.php"> Renew Pass </a></li>
+                        <li><a href="ereceipt.php">Download E-Receipt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Help & Support</h3>
+                    <ul>
+                        <li><a href="contactus.html">FAQs</a></li>
+                        <li><a href="feedback.php">Give Feedback</a></li>
+                        <li><a href="feedback.php">Complaint Resolution</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                     <p><i class="fas fa-map-marker-alt"></i> AMTS Head Office, Ahmedabad</p>
+                    <p><i class="fas fa-phone"></i> 079-25323517/ 25391881-86</p>
+                    <p><i class="fas fa-envelope"></i> amtsamc@gmail.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/amtsahmedabad/"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Ahmedabad Municipal Transport Service. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Update date and time
+        function updateDateTime() {
+            const now = new Date();
+            const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            const timeOptions = { hour: '2-digit', minute: '2-digit', second: '2-digit' };
+            
+            document.getElementById('current-date').textContent = now.toLocaleDateString('en-US', dateOptions);
+            document.getElementById('current-time').textContent = now.toLocaleTimeString('en-US', timeOptions);
+        }
+        
+        setInterval(updateDateTime, 1000);
+        updateDateTime();
+
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.main-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

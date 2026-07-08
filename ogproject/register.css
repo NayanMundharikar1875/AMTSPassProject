@@ -1,0 +1,164 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+  }
+  
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+  }
+  
+  .register-card {
+    background: #fff;
+    padding: 30px;
+    max-width: 450px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  
+  .register-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-header .logo {
+    font-size: 50px;
+    color: #4CAF50;
+  }
+  
+  #darkModeToggle {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .register-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-with-icon {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .input-with-icon i {
+    margin-right: 10px;
+    color: #888;
+  }
+  
+  .input-with-icon input {
+    border: none;
+    background: transparent;
+    flex-grow: 1;
+    outline: none;
+  }
+  
+  .toggle-password {
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .password-strength {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+  }
+  
+  .strength-bar {
+    height: 5px;
+    width: 30px;
+    background-color: #ddd;
+    border-radius: 2px;
+  }
+  
+  .strength-text {
+    margin-left: 10px;
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .terms {
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+  }
+  
+  .terms a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .divider {
+    text-align: center;
+    margin: 15px 0;
+    position: relative;
+  }
+  
+  .divider span {
+    background: #fff;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .divider:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    z-index: 0;
+  }
+  
+  .social-register {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .social-btn {
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .google {
+    background-color: #db4437;
+    color: white;
+  }
+  
+  .github {
+    background-color: #333;
+    color: white;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  

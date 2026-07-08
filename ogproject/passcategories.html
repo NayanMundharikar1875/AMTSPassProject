@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass Categories - AMTS Ahmedabad</title>
+    <link rel="stylesheet" href="passcategories.css">
+    <link rel="shortcut icon" href="amtslogo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="top-header">
+        <div class="container">
+            <div class="top-header-content">
+                <div class="date-time">
+                    <span id="current-date"></span>
+                    <span id="current-time"></span>
+                </div>
+                <div class="top-links">
+                    <a href="contactus.html"><i class="fas fa-question-circle"></i> Help</a>
+                    <a href="contactus.html"><i class="fas fa-phone"></i> Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="amtslogo.jpeg" alt="AMTS Logo">
+                <div class="logo-text">
+                    <h1>AMTS</h1>
+                    <p>Ahmedabad Municipal Transport Service</p>
+                </div>
+            </div>
+            <div class="user-actions">
+                <a href="login.php" class="user-btn"><i class="fas fa-user"></i> Login</a>
+                <a href="register.php" class="user-btn"><i class="fas fa-user-plus"></i> Register</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul class="main-menu">
+                <li><a href="index.php"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html" ><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href=""><i class="fas fa-bus"></i> Information</a>
+                    <ul class="sub-menu">
+                        <li><a href="trafficdepartment.html"><i class="fas fa-list"></i> Traffic Management</a></li>
+                        <li><a href="generaladmin.html" class="active"><i class="fas fa-redo"></i> General Administration</a></li>
+                        <li><a href="workshopdepartment.html"><i class="fas fa-receipt"></i> Workshop Department</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="active"><i class="fas fa-id-card"></i> Pass Management</a>
+                    <ul class="sub-menu">
+                        <li><a href="passcategories.html"><i class="fas fa-list"></i> View Pass Categories</a></li>
+                        <li><a href="renew.php"><i class="fas fa-redo"></i> Renew Pass</a></li>
+                        <li><a href="ereceipt.php"><i class="fas fa-receipt"></i> Download E-Receipt</a></li>
+                    </ul>
+                </li>
+                <li><a href="#"><i class="fas fa-headset"></i> Support</a>
+                    <ul class="sub-menu">
+                        <li><a href="feedback.php"><i class="fas fa-comment"></i> Give Feedback</a></li>
+                    </ul>
+                </li>
+                <li><a href="contactus.html"><i class="fas fa-user-cog"></i> Contect Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero pass-hero">
+        <div class="container">
+            <h2>AMTS Pass Categories</h2>
+            <p>Choose the perfect travel pass for your needs</p>
+        </div>
+    </section>
+
+    <!-- Pass Categories Section -->
+    <section class="pass-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Available Pass Categories</h2>
+                <p>Select from our range of convenient travel passes</p>
+            </div>
+
+            <div class="pass-categories">
+                <!-- Student Pass -->
+                <div class="pass-card">
+                    <div class="pass-header">
+                        <i class="fas fa-user-graduate"></i>
+                        <h3>Student Pass</h3>
+                    </div>
+                    <div class="pass-body">
+                        <ul class="pass-features">
+                            <li><strong>Eligibility:</strong> School/College Students</li>
+                            <li><strong>Validity:</strong> 1 Month</li>
+                            <li><strong>Travel Limit:</strong> Unlimited rides</li>
+                            <li><strong>ID Proof Required:</strong> Yes</li>
+                        </ul>
+                        <div class="pass-price">₹400/month</div>
+                        <div class="pass-actions">
+                            <a href="passform.php" class="btn btn-primary">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Senior Citizen Pass -->
+                <div class="pass-card">
+                    <div class="pass-header">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>Senior Citizen Pass</h3>
+                    </div>
+                    <div class="pass-body">
+                        <ul class="pass-features">
+                            <li><strong>Eligibility:</strong> 60+ years</li>
+                            <li><strong>Validity:</strong> 1 Month</li>
+                            <li><strong>Travel Limit:</strong> Unlimited rides</li>
+                            <li><strong>ID Proof Required:</strong> Yes</li>
+                        </ul>
+                        <div class="pass-price">₹500/month</div>
+                        <div class="pass-actions">
+                            <a href="passform.php" class="btn btn-primary">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Regular Commuter Pass -->
+                <div class="pass-card">
+                    <div class="pass-header">
+                        <i class="fas fa-user"></i>
+                        <h3>Regular Commuter Pass</h3>
+                    </div>
+                    <div class="pass-body">
+                        <ul class="pass-features">
+                            <li><strong>Eligibility:</strong> All citizens</li>
+                            <li><strong>Validity:</strong> 1 Month</li>
+                            <li><strong>Travel Limit:</strong> Unlimited rides</li>
+                            <li><strong>ID Proof Required:</strong> No</li>
+                        </ul>
+                        <div class="pass-price">₹800/month</div>
+                        <div class="pass-actions">
+                            <a href="passform.php" class="btn btn-primary">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Daily Pass -->
+                <div class="pass-card">
+                    <div class="pass-header">
+                        <i class="fas fa-calendar-day"></i>
+                        <h3>Daily Pass</h3>
+                    </div>
+                    <div class="pass-body">
+                        <ul class="pass-features">
+                            <li><strong>Eligibility:</strong> All citizens</li>
+                            <li><strong>Validity:</strong> 1 Day</li>
+                            <li><strong>Travel Limit:</strong> Unlimited rides</li>
+                            <li><strong>ID Proof Required:</strong> No</li>
+                        </ul>
+                        <div class="pass-price">₹45/day</div>
+                        <div class="pass-actions">
+                            <a href="passform.php" class="btn btn-primary">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Disabled Person Pass -->
+                <div class="pass-card">
+                    <div class="pass-header">
+                        <i class="fas fa-wheelchair"></i>
+                        <h3>Disabled Person Pass</h3>
+                    </div>
+                    <div class="pass-body">
+                        <ul class="pass-features">
+                            <li><strong>Eligibility:</strong> Persons with disability</li>
+                            <li><strong>Validity:</strong> 1 Month</li>
+                            <li><strong>Travel Limit:</strong> Unlimited rides</li>
+                            <li><strong>ID Proof Required:</strong> Yes</li>
+                        </ul>
+                        <div class="pass-price">₹200/month</div>
+                        <div class="pass-actions">
+                            <a href="passform.php" class="btn btn-primary">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Women's Special Pass -->
+                <div class="pass-card">
+                    <div class="pass-header">
+                        <i class="fas fa-female"></i>
+                        <h3>Women's Special Pass</h3>
+                    </div>
+                    <div class="pass-body">
+                        <ul class="pass-features">
+                            <li><strong>Eligibility:</strong> All women</li>
+                            <li><strong>Validity:</strong> 1 Month</li>
+                            <li><strong>Travel Limit:</strong> Unlimited rides</li>
+                            <li><strong>ID Proof Required:</strong> No</li>
+                        </ul>
+                        <div class="pass-price">₹500/month</div>
+                        <div class="pass-actions">
+                            <a href="passform.php" class="btn btn-primary">Purchase Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Benefits of AMTS Passes</h2>
+                <p>Why choose our travel passes?</p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <i class="fas fa-wallet"></i>
+                    <h3>Cost Effective</h3>
+                    <p>Save up to 70% compared to daily ticket purchases with our monthly passes.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Time Saving</h3>
+                    <p>No need to purchase tickets daily - just show your pass and board the bus.</p>
+                </div>
+                <div class="benefit-card">
+                    <i class="fas fa-bus"></i>
+                    <h3>Unlimited Travel</h3>
+                    <p>Travel as much as you need within the validity period without worrying about fares.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to common questions about AMTS passes</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How can I purchase an AMTS pass? <i class="fas fa-chevron-down"></i></h3>
+                <div class="faq-answer">
+                    <p>You can purchase AMTS passes through:</p>
+                    <ul>
+                        <li>AMTS website (online payment)</li>
+                        <li>AMTS head office and major bus stands</li>
+                        <li>Authorized pass selling agents</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h3>What documents do I need for a student/senior citizen pass? <i class="fas fa-chevron-down"></i></h3>
+                <div class="faq-answer">
+                    <p>For student passes you need:</p>
+                    <ul>
+                        <li>School/college ID card</li>
+                        <li>Bonafide certificate (for first-time applicants)</li>
+                    </ul>
+                    <p>For senior citizen passes you need:</p>
+                    <ul>
+                        <li>Proof of age (Aadhar card, passport, etc.)</li>
+                        <li>Passport size photograph</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I get a refund if I don't use my pass? <i class="fas fa-chevron-down"></i></h3>
+                <div class="faq-answer">
+                    <p>AMTS passes are non-refundable once issued. However, in exceptional cases like medical emergencies, you may apply for a refund at the AMTS head office with proper documentation.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <h3>What should I do if I lose my pass? <i class="fas fa-chevron-down"></i></h3>
+                <div class="faq-answer">
+                    <p>Immediately report the loss at the nearest AMTS office or call our helpline. You may need to purchase a new pass, but we can block the lost pass to prevent misuse.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About AMTS</h3>
+                    <p>Ahmedabad Municipal Transport Service (AMTS) is the public transport provider for Ahmedabad city, serving millions of passengers daily.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="passcategories.html">Pass Categories</a></li>
+                        <li><a href="renew.php"> Renew Pass </a></li>
+                        <li><a href="ereceipt.php">Download E-Receipt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Help & Support</h3>
+                    <ul>
+                        <li><a href="contactus.html">FAQs</a></li>
+                        <li><a href="feedback.php">Give Feedback</a></li>
+                        <li><a href="feedback.php">Complaint Resolution</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                     <p><i class="fas fa-map-marker-alt"></i> AMTS Head Office, Ahmedabad</p>
+                    <p><i class="fas fa-phone"></i> 079-25323517/ 25391881-86</p>
+                    <p><i class="fas fa-envelope"></i> amtsamc@gmail.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/amtsahmedabad/"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Ahmedabad Municipal Transport Service. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Update date and time
+        function updateDateTime() {
+            const now = new Date();
+            const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            const timeOptions = { hour: '2-digit', minute: '2-digit', second: '2-digit' };
+            
+            document.getElementById('current-date').textContent = now.toLocaleDateString('en-US', dateOptions);
+            document.getElementById('current-time').textContent = now.toLocaleTimeString('en-US', timeOptions);
+        }
+        
+        setInterval(updateDateTime, 1000);
+        updateDateTime();
+
+        // FAQ toggle functionality
+        const faqItems = document.querySelectorAll('.faq-item h3');
+        faqItems.forEach(item => {
+            item.addEventListener('click', function() {
+                const answer = this.nextElementSibling;
+                const icon = this.querySelector('i');
+                
+                answer.classList.toggle('active');
+                icon.classList.toggle('fa-chevron-down');
+                icon.classList.toggle('fa-chevron-up');
+            });
+        });
+
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.main-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
